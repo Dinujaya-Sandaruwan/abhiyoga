@@ -1,0 +1,1 @@
+<a href="index.php"> <button type="button" class="load-more-btn">Go to Home</button></a>

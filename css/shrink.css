@@ -1,0 +1,32 @@
+
+.shrink-on-hover {
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.shrink-on-hover:hover, .shrink-on-hover:focus, .shrink-on-hover:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.shrink-on-active {
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.shrink-on-active:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+
+/*Class:- link link-two shrink-on-hover*/
+
+

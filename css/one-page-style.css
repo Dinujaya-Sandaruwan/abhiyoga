@@ -1,0 +1,92 @@
+
+
+.right-sidebar-one{
+	flex-basis: 20%;
+	position: sticky;
+	top: 60px;
+	align-self: flex-start;
+	padding:20px;
+	border-radius: 4px;
+	color:#626262;
+}
+
+
+.main-content-one{
+	width: 75%;
+}
+
+
+.left-sidebar-one{
+	flex-basis: 20%;
+	position: sticky;
+	top: 60px;
+	align-self: flex-start;
+}
+
+@media (max-width: 768px) {
+	.right-sidebar-one{
+	  display: none;
+	}
+  
+	.search-box {
+	  display: none;
+	}
+	.nav-button{
+		display: none;
+	}
+
+	.like-buttons{
+		display: none;
+	}
+  
+
+	.left-sidebar-one{
+	  display: none;
+	}
+	.main-content-one{
+		width: 100%;
+		margin: auto;
+		padding: 10px;
+
+	}
+  
+  }
+  
+  @media (min-width: 320px) {
+	.storyReel {
+	  width: 100%;
+	  overflow-x: scroll;
+	}
+  }
+  
+  @media (min-width: 769px) and (max-width: 1440px) {
+	/* CSS To Target 767 px width of screen */
+  
+	.feed {
+	  width: 50%;
+	  padding: 10px 50px;
+	}
+  }
+  
+  .principal-m-footer{
+	  text-align: right;
+  }
+
+  .little-bit-right-text{
+	  margin-left: 30px;
+
+  }
+
+  .line-little-height{
+	  line-height: 30px;
+  }
+
+  .sc-badge{
+	border-style: double;
+	border-radius: 50px;
+	border-color: #807F7F;
+  }
+.navbar-header{
+	background-color: crimson;
+}
+ 
